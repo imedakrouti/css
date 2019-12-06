@@ -17,7 +17,7 @@ h1{
     font-family:'Roboto Mono', monospace;
     text-align: center;
     font-size: 30px;
-    box-shadow: rgba(123, rgb(59, 146, 59), rgb(47, 47, 189), .8);
+    
 }
 .imgarea{
     display: flex;
@@ -35,7 +35,7 @@ h1{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 1px solid #ddd;
 }
 img:hover{
     padding:10px;
@@ -46,5 +46,6 @@ img:hover{
     -ms-transition: 0.7s;
     -o-transition: 0.7s;
     cursor: pointer;
+	
 }
  
