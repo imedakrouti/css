@@ -22,6 +22,7 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 1200px;
 }
 
 .testimonial .item {
@@ -90,7 +91,7 @@ body {
 .testimonial .item .title:after {
   content: '';
   display: block;
-  width: 80px;
+  width: 100px;
   height: 4px;
   background: turquoise;
   margin: 8px auto;
