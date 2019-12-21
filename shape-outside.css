@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins"b,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222222;
+}
+.container{
+   width: 600px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 30px;
+   background: #ffffff;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url('images/person-walking.jpg') no-repeat center center/cover;
+    border-radius: 50%;
+    float: left;
+    border: 8px solid #222222;
+    shape-outside: circle();
+    margin: 50px 30px 30px 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+h2{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #222222;
+    margin-bottom: 10px;
+}
+P{
+    font-size: 18px;
+    text-align: justify;
+}
